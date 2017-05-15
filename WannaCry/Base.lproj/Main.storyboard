@@ -952,11 +952,11 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oa-4l-6HB">
-                                <rect key="frame" x="18" y="97" width="86" height="17"/>
+                                <rect key="frame" x="18" y="97" width="85" height="17"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="17" id="meU-OG-zzJ"/>
                                 </constraints>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Abour bitcoin" id="kin-lr-rSJ">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="About bitcoin" id="kin-lr-rSJ">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
