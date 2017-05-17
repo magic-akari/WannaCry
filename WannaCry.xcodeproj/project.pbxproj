@@ -12,6 +12,38 @@
 		492239751EC814E80079D997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492239741EC814E80079D997 /* Assets.xcassets */; };
 		492239781EC814E80079D997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492239761EC814E80079D997 /* Main.storyboard */; };
 		492239801EC8176C0079D997 /* WannaCryWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922397F1EC8176C0079D997 /* WannaCryWindowController.swift */; };
+		521848511ECB1B3A000CE17F /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521848501ECB1B3A000CE17F /* Language.swift */; };
+		521848541ECB4917000CE17F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521848521ECB4917000CE17F /* TimerViewController.swift */; };
+		521848571ECB5834000CE17F /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521848561ECB5834000CE17F /* DateManager.swift */; };
+		522B5E711ECA9524009D2324 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B5E701ECA9524009D2324 /* GradientView.swift */; };
+		522B5E8F1ECAB421009D2324 /* m_bulgarian.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E731ECAB420009D2324 /* m_bulgarian.wnry */; };
+		522B5E901ECAB421009D2324 /* m_chinese (simplified).wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E741ECAB420009D2324 /* m_chinese (simplified).wnry */; };
+		522B5E911ECAB421009D2324 /* m_chinese (traditional).wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E751ECAB420009D2324 /* m_chinese (traditional).wnry */; };
+		522B5E921ECAB421009D2324 /* m_croatian.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E761ECAB420009D2324 /* m_croatian.wnry */; };
+		522B5E931ECAB421009D2324 /* m_czech.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E771ECAB420009D2324 /* m_czech.wnry */; };
+		522B5E941ECAB421009D2324 /* m_danish.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E781ECAB420009D2324 /* m_danish.wnry */; };
+		522B5E951ECAB421009D2324 /* m_dutch.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E791ECAB420009D2324 /* m_dutch.wnry */; };
+		522B5E961ECAB421009D2324 /* m_english.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E7A1ECAB420009D2324 /* m_english.wnry */; };
+		522B5E971ECAB421009D2324 /* m_filipino.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E7B1ECAB420009D2324 /* m_filipino.wnry */; };
+		522B5E981ECAB421009D2324 /* m_finnish.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E7C1ECAB420009D2324 /* m_finnish.wnry */; };
+		522B5E991ECAB421009D2324 /* m_french.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E7D1ECAB420009D2324 /* m_french.wnry */; };
+		522B5E9A1ECAB421009D2324 /* m_german.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E7E1ECAB420009D2324 /* m_german.wnry */; };
+		522B5E9B1ECAB421009D2324 /* m_greek.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E7F1ECAB420009D2324 /* m_greek.wnry */; };
+		522B5E9C1ECAB421009D2324 /* m_indonesian.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E801ECAB420009D2324 /* m_indonesian.wnry */; };
+		522B5E9D1ECAB421009D2324 /* m_italian.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E811ECAB420009D2324 /* m_italian.wnry */; };
+		522B5E9E1ECAB421009D2324 /* m_japanese.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E821ECAB420009D2324 /* m_japanese.wnry */; };
+		522B5E9F1ECAB421009D2324 /* m_korean.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E831ECAB420009D2324 /* m_korean.wnry */; };
+		522B5EA01ECAB421009D2324 /* m_latvian.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E841ECAB420009D2324 /* m_latvian.wnry */; };
+		522B5EA11ECAB421009D2324 /* m_norwegian.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E851ECAB420009D2324 /* m_norwegian.wnry */; };
+		522B5EA21ECAB421009D2324 /* m_polish.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E861ECAB420009D2324 /* m_polish.wnry */; };
+		522B5EA31ECAB421009D2324 /* m_portuguese.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E871ECAB420009D2324 /* m_portuguese.wnry */; };
+		522B5EA41ECAB421009D2324 /* m_romanian.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E881ECAB420009D2324 /* m_romanian.wnry */; };
+		522B5EA51ECAB421009D2324 /* m_russian.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E891ECAB421009D2324 /* m_russian.wnry */; };
+		522B5EA61ECAB421009D2324 /* m_slovak.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E8A1ECAB421009D2324 /* m_slovak.wnry */; };
+		522B5EA71ECAB421009D2324 /* m_spanish.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E8B1ECAB421009D2324 /* m_spanish.wnry */; };
+		522B5EA81ECAB421009D2324 /* m_swedish.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E8C1ECAB421009D2324 /* m_swedish.wnry */; };
+		522B5EA91ECAB421009D2324 /* m_turkish.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E8D1ECAB421009D2324 /* m_turkish.wnry */; };
+		522B5EAA1ECAB421009D2324 /* m_vietnamese.wnry in Resources */ = {isa = PBXBuildFile; fileRef = 522B5E8E1ECAB421009D2324 /* m_vietnamese.wnry */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +54,38 @@
 		492239771EC814E80079D997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492239791EC814E80079D997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4922397F1EC8176C0079D997 /* WannaCryWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WannaCryWindowController.swift; sourceTree = "<group>"; };
+		521848501ECB1B3A000CE17F /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		521848521ECB4917000CE17F /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		521848561ECB5834000CE17F /* DateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		522B5E701ECA9524009D2324 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		522B5E731ECAB420009D2324 /* m_bulgarian.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_bulgarian.wnry; sourceTree = "<group>"; };
+		522B5E741ECAB420009D2324 /* m_chinese (simplified).wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "m_chinese (simplified).wnry"; sourceTree = "<group>"; };
+		522B5E751ECAB420009D2324 /* m_chinese (traditional).wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "m_chinese (traditional).wnry"; sourceTree = "<group>"; };
+		522B5E761ECAB420009D2324 /* m_croatian.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_croatian.wnry; sourceTree = "<group>"; };
+		522B5E771ECAB420009D2324 /* m_czech.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_czech.wnry; sourceTree = "<group>"; };
+		522B5E781ECAB420009D2324 /* m_danish.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_danish.wnry; sourceTree = "<group>"; };
+		522B5E791ECAB420009D2324 /* m_dutch.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_dutch.wnry; sourceTree = "<group>"; };
+		522B5E7A1ECAB420009D2324 /* m_english.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_english.wnry; sourceTree = "<group>"; };
+		522B5E7B1ECAB420009D2324 /* m_filipino.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_filipino.wnry; sourceTree = "<group>"; };
+		522B5E7C1ECAB420009D2324 /* m_finnish.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_finnish.wnry; sourceTree = "<group>"; };
+		522B5E7D1ECAB420009D2324 /* m_french.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_french.wnry; sourceTree = "<group>"; };
+		522B5E7E1ECAB420009D2324 /* m_german.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_german.wnry; sourceTree = "<group>"; };
+		522B5E7F1ECAB420009D2324 /* m_greek.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_greek.wnry; sourceTree = "<group>"; };
+		522B5E801ECAB420009D2324 /* m_indonesian.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_indonesian.wnry; sourceTree = "<group>"; };
+		522B5E811ECAB420009D2324 /* m_italian.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_italian.wnry; sourceTree = "<group>"; };
+		522B5E821ECAB420009D2324 /* m_japanese.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_japanese.wnry; sourceTree = "<group>"; };
+		522B5E831ECAB420009D2324 /* m_korean.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_korean.wnry; sourceTree = "<group>"; };
+		522B5E841ECAB420009D2324 /* m_latvian.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_latvian.wnry; sourceTree = "<group>"; };
+		522B5E851ECAB420009D2324 /* m_norwegian.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_norwegian.wnry; sourceTree = "<group>"; };
+		522B5E861ECAB420009D2324 /* m_polish.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_polish.wnry; sourceTree = "<group>"; };
+		522B5E871ECAB420009D2324 /* m_portuguese.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_portuguese.wnry; sourceTree = "<group>"; };
+		522B5E881ECAB420009D2324 /* m_romanian.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_romanian.wnry; sourceTree = "<group>"; };
+		522B5E891ECAB421009D2324 /* m_russian.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_russian.wnry; sourceTree = "<group>"; };
+		522B5E8A1ECAB421009D2324 /* m_slovak.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_slovak.wnry; sourceTree = "<group>"; };
+		522B5E8B1ECAB421009D2324 /* m_spanish.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_spanish.wnry; sourceTree = "<group>"; };
+		522B5E8C1ECAB421009D2324 /* m_swedish.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_swedish.wnry; sourceTree = "<group>"; };
+		522B5E8D1ECAB421009D2324 /* m_turkish.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_turkish.wnry; sourceTree = "<group>"; };
+		522B5E8E1ECAB421009D2324 /* m_vietnamese.wnry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = m_vietnamese.wnry; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +119,53 @@
 			isa = PBXGroup;
 			children = (
 				492239701EC814E70079D997 /* AppDelegate.swift */,
-				492239721EC814E70079D997 /* ViewController.swift */,
+				4922397F1EC8176C0079D997 /* WannaCryWindowController.swift */,
 				492239741EC814E80079D997 /* Assets.xcassets */,
 				492239761EC814E80079D997 /* Main.storyboard */,
-				4922397F1EC8176C0079D997 /* WannaCryWindowController.swift */,
+				492239721EC814E70079D997 /* ViewController.swift */,
+				522B5E701ECA9524009D2324 /* GradientView.swift */,
+				521848521ECB4917000CE17F /* TimerViewController.swift */,
+				521848561ECB5834000CE17F /* DateManager.swift */,
+				521848501ECB1B3A000CE17F /* Language.swift */,
 				492239791EC814E80079D997 /* Info.plist */,
+				522B5E721ECAB420009D2324 /* WANNACRYDECRYPTOR-Ransomware-Messages-all-langs */,
 			);
 			path = WannaCry;
+			sourceTree = "<group>";
+		};
+		522B5E721ECAB420009D2324 /* WANNACRYDECRYPTOR-Ransomware-Messages-all-langs */ = {
+			isa = PBXGroup;
+			children = (
+				522B5E731ECAB420009D2324 /* m_bulgarian.wnry */,
+				522B5E741ECAB420009D2324 /* m_chinese (simplified).wnry */,
+				522B5E751ECAB420009D2324 /* m_chinese (traditional).wnry */,
+				522B5E761ECAB420009D2324 /* m_croatian.wnry */,
+				522B5E771ECAB420009D2324 /* m_czech.wnry */,
+				522B5E781ECAB420009D2324 /* m_danish.wnry */,
+				522B5E791ECAB420009D2324 /* m_dutch.wnry */,
+				522B5E7A1ECAB420009D2324 /* m_english.wnry */,
+				522B5E7B1ECAB420009D2324 /* m_filipino.wnry */,
+				522B5E7C1ECAB420009D2324 /* m_finnish.wnry */,
+				522B5E7D1ECAB420009D2324 /* m_french.wnry */,
+				522B5E7E1ECAB420009D2324 /* m_german.wnry */,
+				522B5E7F1ECAB420009D2324 /* m_greek.wnry */,
+				522B5E801ECAB420009D2324 /* m_indonesian.wnry */,
+				522B5E811ECAB420009D2324 /* m_italian.wnry */,
+				522B5E821ECAB420009D2324 /* m_japanese.wnry */,
+				522B5E831ECAB420009D2324 /* m_korean.wnry */,
+				522B5E841ECAB420009D2324 /* m_latvian.wnry */,
+				522B5E851ECAB420009D2324 /* m_norwegian.wnry */,
+				522B5E861ECAB420009D2324 /* m_polish.wnry */,
+				522B5E871ECAB420009D2324 /* m_portuguese.wnry */,
+				522B5E881ECAB420009D2324 /* m_romanian.wnry */,
+				522B5E891ECAB421009D2324 /* m_russian.wnry */,
+				522B5E8A1ECAB421009D2324 /* m_slovak.wnry */,
+				522B5E8B1ECAB421009D2324 /* m_spanish.wnry */,
+				522B5E8C1ECAB421009D2324 /* m_swedish.wnry */,
+				522B5E8D1ECAB421009D2324 /* m_turkish.wnry */,
+				522B5E8E1ECAB421009D2324 /* m_vietnamese.wnry */,
+			);
+			path = "WANNACRYDECRYPTOR-Ransomware-Messages-all-langs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +227,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522B5E961ECAB421009D2324 /* m_english.wnry in Resources */,
 				492239751EC814E80079D997 /* Assets.xcassets in Resources */,
+				522B5EAA1ECAB421009D2324 /* m_vietnamese.wnry in Resources */,
+				522B5E951ECAB421009D2324 /* m_dutch.wnry in Resources */,
+				522B5E9C1ECAB421009D2324 /* m_indonesian.wnry in Resources */,
+				522B5EA91ECAB421009D2324 /* m_turkish.wnry in Resources */,
 				492239781EC814E80079D997 /* Main.storyboard in Resources */,
+				522B5E9F1ECAB421009D2324 /* m_korean.wnry in Resources */,
+				522B5E9B1ECAB421009D2324 /* m_greek.wnry in Resources */,
+				522B5EA81ECAB421009D2324 /* m_swedish.wnry in Resources */,
+				522B5E921ECAB421009D2324 /* m_croatian.wnry in Resources */,
+				522B5E971ECAB421009D2324 /* m_filipino.wnry in Resources */,
+				522B5E9E1ECAB421009D2324 /* m_japanese.wnry in Resources */,
+				522B5EA31ECAB421009D2324 /* m_portuguese.wnry in Resources */,
+				522B5EA61ECAB421009D2324 /* m_slovak.wnry in Resources */,
+				522B5E931ECAB421009D2324 /* m_czech.wnry in Resources */,
+				522B5EA01ECAB421009D2324 /* m_latvian.wnry in Resources */,
+				522B5E9A1ECAB421009D2324 /* m_german.wnry in Resources */,
+				522B5EA41ECAB421009D2324 /* m_romanian.wnry in Resources */,
+				522B5E9D1ECAB421009D2324 /* m_italian.wnry in Resources */,
+				522B5E8F1ECAB421009D2324 /* m_bulgarian.wnry in Resources */,
+				522B5E911ECAB421009D2324 /* m_chinese (traditional).wnry in Resources */,
+				522B5E941ECAB421009D2324 /* m_danish.wnry in Resources */,
+				522B5EA71ECAB421009D2324 /* m_spanish.wnry in Resources */,
+				522B5E901ECAB421009D2324 /* m_chinese (simplified).wnry in Resources */,
+				522B5EA21ECAB421009D2324 /* m_polish.wnry in Resources */,
+				522B5E981ECAB421009D2324 /* m_finnish.wnry in Resources */,
+				522B5EA11ECAB421009D2324 /* m_norwegian.wnry in Resources */,
+				522B5EA51ECAB421009D2324 /* m_russian.wnry in Resources */,
+				522B5E991ECAB421009D2324 /* m_french.wnry in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,9 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521848571ECB5834000CE17F /* DateManager.swift in Sources */,
 				492239801EC8176C0079D997 /* WannaCryWindowController.swift in Sources */,
 				492239731EC814E70079D997 /* ViewController.swift in Sources */,
+				522B5E711ECA9524009D2324 /* GradientView.swift in Sources */,
 				492239711EC814E70079D997 /* AppDelegate.swift in Sources */,
+				521848541ECB4917000CE17F /* TimerViewController.swift in Sources */,
+				521848511ECB1B3A000CE17F /* Language.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

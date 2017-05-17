@@ -10,11 +10,21 @@ import Cocoa
 
 class WannaCryWindowController: NSWindowController {
 
+    @IBOutlet weak var languagesPopUp: NSPopUpButtonCell!
+
     override func windowDidLoad() {
         super.windowDidLoad()
-        self.window?.titleVisibility = .hidden
-
-        // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+        window?.titleVisibility = .hidden
+        window?.level = Int(CGWindowLevelForKey(.floatingWindow))
+        for language in Language.all {
+            languagesPopUp.menu?.addItem(withTitle: language.localizedName, action: #selector(updateLanguage), keyEquivalent: "")
+        }
+        languagesPopUp.selectItem(withTitle: Language.english.localizedName)
     }
 
+    func updateLanguage() {
+        let controller = contentViewController as? ViewController
+        controller?.language = Language.all[languagesPopUp.indexOfSelectedItem]
+    }
+    
 }
