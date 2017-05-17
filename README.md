@@ -6,3 +6,7 @@ Fake WannaCry on the macOS
 ---
 This is just a spoof without any actual function.  
 And I gladly accept contributions via GitHub pull requests.
+
+### Acknowledgment
+
+Ransom messages of all languages are extracted from https://transfer.sh/y6qco/WANNACRYDECRYPTOR-Ransomware-Messages-all-langs.zip
