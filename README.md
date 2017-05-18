@@ -1,7 +1,8 @@
 # WannaCry
 Fake WannaCry on the macOS
 
-![screen shot 2017-05-16 at 1 39 12 pm](https://cloud.githubusercontent.com/assets/7829098/26091373/5616fdee-3a3d-11e7-98ec-dced773080c1.png)
+![screen shot 2017-05-18 at 7 45 31 am](https://cloud.githubusercontent.com/assets/7829098/26181294/9789452e-3ba1-11e7-8d94-cbccbf15d060.png)
+![screen shot 2017-05-18 at 7 45 36 am](https://cloud.githubusercontent.com/assets/7829098/26181293/9786d4f6-3ba1-11e7-8cb1-416efd5c204a.png)
 
 ---
 This is just a spoof without any actual function.  
