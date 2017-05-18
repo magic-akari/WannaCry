@@ -3,7 +3,7 @@
 //  WannaCry
 //
 //  Created by 阿卡琳 on 14/05/2017.
-//  Copyright © 2017 阿卡琳. All rights reserved.
+//
 //
 
 import Cocoa

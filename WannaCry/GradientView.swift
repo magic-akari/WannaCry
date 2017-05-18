@@ -3,7 +3,7 @@
 //  WannaCry
 //
 //  Created by Apollo Zhu on 5/15/17.
-//  Copyright © 2017 胡凡. All rights reserved.
+//
 //
 
 import Cocoa
