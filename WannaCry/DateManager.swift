@@ -42,6 +42,7 @@ class DateManager {
         let formatter = DateComponentsFormatter()
         formatter.allowedUnits = [.day, .hour, .minute, .second]
         formatter.zeroFormattingBehavior = .pad
+        formatter.calendar?.locale = Locale(identifier: "en_US")
         return formatter
     }()
 
